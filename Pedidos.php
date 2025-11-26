@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         
         echo "<h1>Pedido registrado com sucesso!</h1>";
-        echo "<p>Obrigado, <strong>" . htmlspecialchars($cliente) . "</strong>. Seu pedido foi enviado para o restaurante.</p>";
+        echo "<p>Obrigado, ($cliente) . Seu pedido foi enviado para o restaurante.</p>";
         echo "<p><a href='index.html'>Voltar ao cardápio</a></p>";
     } else {
         echo "<h1>Erro</h1>";
