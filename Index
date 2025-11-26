@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sapore d'Italia</title>
+</head>
+<body>
+    <header>
+        <h1>🍝 Sapore d'Italia</h1>
+        <p>O verdadeiro sabor da culinária italiana no coração da sua cidade!</p>
+        <nav>
+            <a href="#cardapio">Cardápio</a> |
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Cardápio com formulário -->
+    <section id="cardapio">
+        <h2>Cardápio Italiano</h2>
+        <form action="pedidos.php" method="post">
+            <h3>Antipasti (Entradas)</h3>
+            <label><input type="checkbox" name="pratos[]" value="Bruschetta al pomodoro"> Bruschetta al pomodoro</label><br>
+            <label><input type="checkbox" name="pratos[]" value="Caprese"> Caprese</label><br>
+            <label><input type="checkbox" name="pratos[]" value="Carpaccio di manzo"> Carpaccio di manzo</label><br>
+
+            <h3>Primi Piatti (Pratos Principais)</h3>
+            <label><input type="checkbox" name="pratos[]" value="Spaghetti alla carbonara"> Spaghetti alla carbonara</label><br>
+            <label><input type="checkbox" name="pratos[]" value="Lasagna alla bolognese"> Lasagna alla bolognese</label><br>
+            <label><input type="checkbox" name="pratos[]" value="Risotto ai funghi"> Risotto ai funghi</label><br>
+            <label><input type="checkbox" name="pratos[]" value="Gnocchi al pesto"> Gnocchi al pesto</label><br>
+
+            <h3>Dolci (Sobremesas)</h3>
+            <label><input type="checkbox" name="pratos[]" value="Tiramisù"> Tiramisù</label><br>
+            <label><input type="checkbox" name="pratos[]" value="Panna cotta"> Panna cotta</label><br>
+            <label><input type="checkbox" name="pratos[]" value="Cannoli siciliani"> Cannoli siciliani</label><br>
+
+            <h3>Bevande (Bebidas)</h3>
+            <label><input type="checkbox" name="pratos[]" value="Vinho tinto italiano"> Vinho tinto italiano</label><br>
+            <label><input type="checkbox" name="pratos[]" value="Limoncello"> Limoncello</label><br>
+            <label><input type="checkbox" name="pratos[]" value="Água com gás"> Água com gás</label><br>
+            <label><input type="checkbox" name="pratos[]" value="Espresso"> Espresso</label><br>
+
+            <br>
+            <label>Nome do Cliente: <input type="text" name="cliente" required></label><br><br>
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>📍 Endereço: qualquer bairro, 123 — João Pessoa, PB</p>
+        <p>📞 Telefone: (83) xxxxxxxx</p>
+    </section>
+
+    <hr>
+    <footer>
+        <p>&copy; 2025 Sapore d'Italia</p>
+    </footer>
+</body>
+</html>
