@@ -2,7 +2,9 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sapore d'Italia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -16,7 +18,7 @@
 
     <hr>
 
-    <!-- Cardápio com formulário -->
+    
     <section id="cardapio">
         <h2>Cardápio Italiano</h2>
         <form action="pedidos.php" method="post">
@@ -57,6 +59,8 @@
     </section>
 
     <hr>
+    <a href="paginadorestaurante.html" class="botao-link cta-left" aria-label="Voltar"><button>⬅️ Voltar</button></a>
+
     <footer>
         <p>&copy; 2025 Sapore d'Italia</p>
     </footer>
